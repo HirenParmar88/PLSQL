@@ -1,0 +1,13 @@
+DECLARE
+	VNO NUMBER(3);
+BEGIN
+	VNO:=&VNO;
+	DBMS_OUTPUT.PUT_LINE('==================');
+	FOR I IN 1..10
+	LOOP
+		DBMS_OUTPUT.PUT_LINE(VNO ||' X '|| I ||' = '||I*VNO);
+	END LOOP;
+	
+	DBMS_OUTPUT.PUT_LINE('==================');
+END;
+/

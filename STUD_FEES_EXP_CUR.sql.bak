@@ -1,0 +1,22 @@
+SQL> DESC FEES2
+ Name                                                              Null?    Type
+ ----------------------------------------------------------------- -------- --------------------------------------------
+ SNO                                                                        NUMBER(3)
+ AMOUNT                                                                     NUMBER(4)
+ FEESDATE                                                                   DATE
+ 
+ SQL> DESC FEES2
+ Name                                                              Null?    Type
+ ----------------------------------------------------------------- -------- --------------------------------------------
+ SNO                                                                        NUMBER(3)
+ AMOUNT                                                                     NUMBER(4)
+ FEESDATE                                                                   DATE
+ TNO                                                                        NUMBER(3)
+
+
+DECLARE
+
+BEGIN
+
+END;
+/
